@@ -6,6 +6,8 @@ package collection;
  * 
  * We cannot have more than 1 this () statement in constructor
  * 
+ * This process is called as Constructor Chaining
+ * 
  * @author vikrant.upadhayay
  *
  */
