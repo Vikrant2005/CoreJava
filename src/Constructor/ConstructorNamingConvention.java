@@ -1,4 +1,4 @@
-package collection;
+package Constructor;
 /**
  * Constructor Name should be same as Class Name , otherwise it will become Normal method and ask for Return Type
  * Eg:ConstructorNamingConvention1 , have void as return type
