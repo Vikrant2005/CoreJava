@@ -1,4 +1,4 @@
-package collection;
+package Constructor;
 /**
  * This () used to call constructor of same class
  * 

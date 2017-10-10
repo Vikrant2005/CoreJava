@@ -1,4 +1,4 @@
-package collection;
+package Constructor;
 /**
  * Purpose of Constructor:
  * 	1. Object Creation
