@@ -11,9 +11,9 @@ package Constructor;
  * @author vikrant.upadhayay
  *
  */
-public class ThisWithConstructor {
+public class ConstructorChaining {
 	
-	ThisWithConstructor()
+	ConstructorChaining()
 	{
 		this(10);
 		System.out.println("ThisWithConstructor()");
@@ -21,26 +21,26 @@ public class ThisWithConstructor {
 		//because of above Compile Time Error -- We have constraints like First statement and 1 time usage.
 	}
 	
-	ThisWithConstructor(int i)
+	ConstructorChaining(int i)
 	{
 		this("Vikrant");
 		System.out.println("ThisWithConstructor(int i)");
 		
 	}
 	
-	ThisWithConstructor(String s)
+	ConstructorChaining(String s)
 	{
 		this('A');
 		System.out.println("ThisWithConstructor(String s)");
 	}
 	
-	ThisWithConstructor(char c)
+	ConstructorChaining(char c)
 	{
 		System.out.println("ThisWithConstructor(char c)");
 	}
 	
 	public static void main(String[] args) {
-		ThisWithConstructor obj=new ThisWithConstructor();
+		ConstructorChaining obj=new ConstructorChaining();
 	}
 
 }

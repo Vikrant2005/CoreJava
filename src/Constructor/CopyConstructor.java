@@ -9,6 +9,7 @@ class Complex
 		this.id=id;
 		this.name=name;
 	}
+		
 	
 	Complex(Complex c)
 	{
